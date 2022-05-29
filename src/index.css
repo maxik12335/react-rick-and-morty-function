@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-family: fantasy;
+}
+
+.header,
+.footer {
+  padding: 20px;
+  background-color: #ffbe6f;
+}
+
+.header__title,
+.footer__title {
+  margin: 0 auto;
+  text-align: center;
+  color: #585adc;
+}
+
+.posts-container {
+  background-color: #41473D;
+  padding: 20px 50px;
+  min-height: calc(100vh - 320px);
+}
+
+.search-container {
+  background-color: #41473d;
+  padding: 40px 65px;
+}
+
+.search {
+  width: 99%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.search:focus-visible {
+  outline: none;
+}
+
+.posts {
+  color: wheat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post {
+  width: fit-content;
+  margin: 20px;
+}
+
+.search-radio__inputs label {
+  margin-right: 20px;
+  color: #ffbe6f;
+}
+
+.search-radio__inputs:nth-child(1) {
+  margin-bottom: 10px;
+}
